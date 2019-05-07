@@ -1,0 +1,35 @@
+html {
+	height: 100%;
+	margin: 0;
+	background-color: ;
+	background: url("images/bg-desktop.svg") no-repeat center fixed hsl(257, 40%, 49%);
+	color: white;
+}
+
+h1 {
+	font-family: "Poppins", sans-serif;
+	
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+}
+
+.button {
+	width: 125px;
+	border-radius: 25px;
+	padding: 10px;
+	color: hsl(257, 40%, 49%);
+	
+.row {
+	display: flex;
+	align-items: flex-start;
+}
+
+.column1 {
+	flex: 60%;
+}
+
+.column2 {
+	flex: 40%;
+}
