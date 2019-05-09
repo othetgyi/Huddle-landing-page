@@ -25,23 +25,22 @@ p {
 .row {
 	display: flex;
 	align-items: center;
-	justify-content: flex-end;
 	
 	
-
+	
 }
 
 
 
 .col1 {
-	flex: 60%;
-	padding: 20px;
-	
+	flex: 53%;
+	margin: 35px 20px 20px 50px;
 }
 
 .col2 {
-	flex: 40%;
-	padding: 20px;
+	flex: 47%;
+	margin: 40px 20px 20px 30px;
+	
 	
 }
 	
@@ -50,27 +49,48 @@ p {
 	width: auto;
 }
 .content {
-	max-width: 400px;
-	line-height: 1.6;
+	max-width: 100%;
+	line-height: 1.5;
 }
 
-.button {
-	width: 125px;
+.register {
+	width: 175px;
+	height: 50px;
 	border-radius: 25px;
 	padding: 10px;
 	color: hsl(257, 40%, 49%);
+	filter: drop-shadow(0 0 5px #352955);
+	background-color: white;
+	border-color: transparent;
+	font-size: 15px;
+	margin: 5px 0;
 }	
 
 .social {
-	justify-content: flex-end;
-	align-items: flex-end;
-	padding: 50px 0 20px;
+	position: absolute; 
+	bottom: 20px; 
+	right: 150px; 
+	padding: 20px;
+}
+	
+
+.circle {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 1.5px solid white;
+	background-color: transparent;
+	color: white;
+	margin: 7px;
+	text: center;
+	
 }
 
 
 
 #mockup {
 	padding: 25px 0;
+	
 }
 
 #logimg {
