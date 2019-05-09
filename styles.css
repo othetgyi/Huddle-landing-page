@@ -1,10 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+
 html {
 	height: 100%;
 	margin: 0;
-	background-color: ;
-	background: url("images/bg-desktop.svg") no-repeat center fixed hsl(257, 40%, 49%);
+	background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") left fixed no-repeat;
 	color: white;
+	
 }
+
+
 
 h1 {
 	font-family: "Poppins", sans-serif;
@@ -15,21 +22,59 @@ p {
 	font-family: "Open Sans", sans-serif;
 }
 
+.row {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	
+	
+
+}
+
+
+
+.col1 {
+	flex: 60%;
+	padding: 20px;
+	
+}
+
+.col2 {
+	flex: 40%;
+	padding: 20px;
+	
+}
+	
+#mockimg {
+	height: 90%;
+	width: auto;
+}
+.content {
+	max-width: 400px;
+	line-height: 1.6;
+}
+
 .button {
 	width: 125px;
 	border-radius: 25px;
 	padding: 10px;
 	color: hsl(257, 40%, 49%);
-	
-.row {
-	display: flex;
-	align-items: flex-start;
+}	
+
+.social {
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 50px 0 20px;
 }
 
-.column1 {
-	flex: 60%;
+
+
+#mockup {
+	padding: 25px 0;
 }
 
-.column2 {
-	flex: 40%;
+#logimg {
+	width: 25%;
+	height: auto;
+	padding: 10px 10px 50px;
 }
