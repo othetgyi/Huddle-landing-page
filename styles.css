@@ -6,10 +6,11 @@ html {
 	width:100%;
 	height: 100%;
 	margin: 0;
+	background-color: hsl(257, 40%, 49%);
 	color: white;
 }
 
-h1 {
+.heading {
 	font-family: "Poppins", sans-serif;
 }
 
@@ -17,41 +18,6 @@ p {
 	font-family: "Open Sans", sans-serif;
 }
 
-.col1 {
-	width: 55%; 
-	margin: 60px 20px 20px 65px;
-	float: left;
-}
-
-.content {
-	width: 35%; 
-	float: right;
-	line-height: 1.5;
-	padding: 200px 0 0 0;
-}
-	
-.register {
-	width: 175px;
-	height: 50px;
-	border-radius: 25px;
-	padding: 10px;
-	color: hsl(257, 40%, 49%);
-	filter: drop-shadow(0 0 5px #352955);
-	background-color: white;
-	border-color: transparent;
-	font-size: 15px;
-	margin: 5px 0;
-}	
-
-.social {
-	float: right;
-	padding: 220px 20px 0 0;
-	/* position: absolute; 
-	bottom: 20px; 
-	right: 150px; 
-	padding: 20px; */
-}
-	
 .circle {
 	width: 40px;
 	height: 40px;
@@ -61,16 +27,6 @@ p {
 	color: white;
 	margin: 7px;
 	text: center;
-	
-}
-
-#mockup {
-	width: 100%;
-	
-}
-
-#logo {
-	width: 25%;
 	
 }
 
@@ -110,7 +66,7 @@ p {
 	padding: 0;
 } */
 	
-	.col1 {
+	.images {
 	margin: 0;
 	width: 100%;
 	}
@@ -123,20 +79,68 @@ p {
 		
 }
 
-@media screen and (min-width: 375px) and (max-width: 1440px) {
+@media screen and (min-width: 375px) {
 	html {
     background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") left fixed no-repeat;
+	}
+  
+  .heading {
+	  font-weight: 600;
+	  font-size: 2.2em;
   }
-	#mockup {
-	width: 100%;
+	.images {
+	width: 55%; 
+	padding: 50px 20px 0 60px;
+	float: left;
+	}
+
+	.content {
+	width: 45%; 
+	float: right;
+	line-height: 1.5;
+	padding: 180px 100px 0 20px;
 	}
 	
+	.info {
+	width: 87%; 
+	float: left;
+	line-height: 1.5;
+	padding: 0 25px 0 0;
+	}
 	
+	.social {
+	float: right;
+	padding: 200px 80px 0 0;
+	/* position: absolute; 
+	bottom: 20px; 
+	right: 150px; 
+	padding: 20px; */
+	}
+	
+	.register {
+	width: 175px;
+	height: 50px;
+	border-radius: 25px;
+	padding: 10px;
+	color: hsl(257, 40%, 49%);
+	filter: drop-shadow(0 0 5px #352955);
+	background-color: white;
+	border-color: transparent;
+	font-size: 15px;
+	margin: 5px 0;
+	}	
+
+	#mockup {
+	width: 95%;
+	padding-top: 15px;
+	}
 	
 	#logo {
 	width: 25%;
-	padding: 10px 10px 50px;
-}
+	padding: 0 10px 50px;
+	}
+	
+
 }
 
 
