@@ -44,54 +44,53 @@ p {
 	
 }
 
-@media screen and (min-width: 100px) and (max-width: 375px) {
-  html {
+html {
 	background: hsl(257, 40%, 49%) url("images/bg-mobile.svg") top fixed no-repeat;
-  }
-  
-  .images {
+}
+
+.images {
 	width: 100%; 
-	}
-	
-  #logo {
+}
+
+#logo {
 	width: 40%; 
 	padding: 25px 0 0 25px;
-	}
-	
-	#mockup {
+}
+
+#mockup {
 	display: block;
 	width: 90%;
 	margin: auto;
 	padding: 60px 5px 0;
-	}
-	
-	.heading {
-	  font-weight: 600;
-	  font-size: 1.5em;
-	  margin-top: 55px;
-  }
-	.content {
+}
+
+.heading {
+	font-weight: 600;
+	font-size: 1.5em;
+	margin-top: 55px;
+}
+.content {
 	padding: 0 10px 5px 10px;	
 	width: 100%;
 	text-align: center;
 	line-height: 1.5;
-	}
-	
-	p {
+}
+
+p {
 	padding: 0 10px;
-		
-	}
-	.social {
+	
+}
+.social {
 	float: none;
 	padding: 60px 0 0 0;
-	}
-	
-	.images {
+}
+
+.images {
 	margin: 0;
 	width: 100%;
-	}
-	
-	.button {
+}
+
+.button {
 	width: 65%;
 	height: 40px;
 	border-radius: 25px;
@@ -102,67 +101,66 @@ p {
 	border-color: transparent;
 	font-size: 15px;
 	margin: 5px 0;
-	}	
-		
-}
+}	
+
 
 /* Medium */
 
 @media screen and (min-width: 375px) {
 	html {
-    background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") left fixed no-repeat;
+		background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") left fixed no-repeat;
 	}
-  
-  .heading {
-	  font-weight: 600;
-	  font-size: 2.2em;
-  }
+	
+	.heading {
+		font-weight: 600;
+		font-size: 2.2em;
+	}
 	.images {
-	width: 55%; 
-	padding: 50px 20px 0 60px;
-	float: left;
+		width: 55%; 
+		padding: 50px 20px 0 60px;
+		float: left;
 	}
-
+	
 	.content {
-	width: 45%; 
-	float: right;
-	line-height: 1.5;
-	padding: 180px 100px 0 20px;
+		width: 45%; 
+		float: right;
+		line-height: 1.5;
+		padding: 180px 100px 0 20px;
 	}
 	
 	.info {
-	width: 87%; 
-	float: left;
-	line-height: 1.5;
-	padding: 0 25px 0 0;
+		width: 87%; 
+		float: left;
+		line-height: 1.5;
+		padding: 0 25px 0 0;
 	}
 	
 	.social {
-	float: right;
-	padding: 200px 80px 0 0;
+		float: right;
+		padding: 200px 80px 0 0;
 	}
 	
 	.button {
-	width: 175px;
-	height: 50px;
-	border-radius: 25px;
-	padding: 10px;
-	color: hsl(257, 40%, 49%);
-	filter: drop-shadow(0 0 5px #352955);
-	background-color: white;
-	border-color: transparent;
-	font-size: 15px;
-	margin: 5px 0;
+		width: 175px;
+		height: 50px;
+		border-radius: 25px;
+		padding: 10px;
+		color: hsl(257, 40%, 49%);
+		filter: drop-shadow(0 0 5px #352955);
+		background-color: white;
+		border-color: transparent;
+		font-size: 15px;
+		margin: 5px 0;
 	}	
-
+	
 	#mockup {
-	width: 95%;
-	padding-top: 15px;
+		width: 95%;
+		padding-top: 15px;
 	}
 	
 	#logo {
-	width: 25%;
-	padding: 0 10px 50px;
+		width: 25%;
+		padding: 0 10px 50px;
 	}
 }
 
