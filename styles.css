@@ -2,26 +2,15 @@ html, body {
 	height: 100%;
 	background: hsl(257, 40%, 49%) url("images/bg-mobile.svg") top fixed no-repeat;
 	color: white;
+	margin: 0;
 }
 
 body {
 	display: flex;
 	flex-direction: column;
 	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-	margin: 0;
 }
 
-.container {
-	flex: 1 0 auto;
-	flex-wrap: wrap;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-}
-
-.footer {
-	flex-shrink: 0;
-}
 
 h1 {
 	font-family: "Poppins", sans-serif;
@@ -31,6 +20,20 @@ p {
 	font-family: "Open Sans", sans-serif;
 }
 
+.images {
+	padding: 10px 0;
+}
+.container {
+	flex: 1 0 auto;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	padding: 0 10px 0 10px;
+}
+
+.footer {
+	flex-shrink: 0;
+}
 /* NARROW */
 .circle {
 	width: 40px;
@@ -45,9 +48,6 @@ p {
 }
 
 
-.images {
-	width: 100%; 
-}
 
 #logo {
 	width: 40%; 
@@ -81,10 +81,7 @@ p {
 	padding: 60px 0 0 0;
 }
 
-.images {
-	margin: 0;
-	width: 100%;
-}
+
 
 .button {
 	width: 65%;
