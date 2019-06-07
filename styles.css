@@ -37,24 +37,24 @@ p {
 	justify-content: center;
 }
 
-i {
-	font-size: calc(12px + (24 - 12) * ((100vw - 300px) / (1600 - 300)));
+i.fab {
+	font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 .images {
 	padding: 0 0 50px 0;
 }
-/*.circle {
-	width: 40px;
-	height: 40px;
+
+.circle {
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
-	border: 1.5px solid white;
+	border: 1px solid white;
 	background-color: transparent;
 	color: white;
-	margin: 7px;
-	text: center;
+	margin: 5px;
 	
 }
-*/
+
 #logo {
 	justify-content: flex-start;
 	padding: 25px 0px 0 15px;
