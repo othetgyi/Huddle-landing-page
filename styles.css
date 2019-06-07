@@ -8,16 +8,19 @@ html, body {
 body {
 	display: flex;
 	flex-direction: column;
-	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+		
 }
 
 
 h1 {
 	font-family: "Poppins", sans-serif;
+	font-size: calc(22px + (34 - 22) * ((100vw - 300px) / (1600 - 300)));
+	font-weight: 500;
 }
 
 p {
 	font-family: "Open Sans", sans-serif;
+	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .container {
