@@ -35,6 +35,9 @@ p {
 	flex-shrink: 0;
 }
 
+.images {
+	padding: 0 0 50px 0;
+}
 .circle {
 	width: 40px;
 	height: 40px;
