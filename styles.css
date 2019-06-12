@@ -113,6 +113,9 @@ p {
 }	
 
 @media screen and (min-width: 430px) {
+	.images {
+		padding: 0 0 40px 0;
+	}
 
 	#mockup {
 		display: block;
