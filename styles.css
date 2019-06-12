@@ -1,6 +1,11 @@
 html, body {
 	height: 100%;
-	background: hsl(257, 40%, 49%) url("images/bg-mobile.svg") top fixed no-repeat;
+	background-color: hsl(257, 40%, 49%);
+	background-image: url("images/bg-mobile.svg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-attachment: fixed; 
+	background-size: contain;
 	color: white;
 	margin: 0;
 }
@@ -106,8 +111,8 @@ p {
 	margin: 5px 0;
 }	
 
+/*
 
-/* Medium */
 
 @media screen and (min-width: 375px) {
 	html {
@@ -167,4 +172,4 @@ p {
 	}
 }
 
-
+*/
