@@ -119,7 +119,13 @@ p {
 		width: 80%;
 		margin: auto;
 		padding: 60px 5px 0;
-	}	
+	}
+	
+	#logo {
+		justify-content: flex-start;
+		padding: 25px 0px 0 15px;
+		max-width: 35%;
+	}
 }
 
 
