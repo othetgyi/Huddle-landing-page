@@ -118,9 +118,9 @@ p {
 	}
 
 	#mockup {
-		display: block;
+		
 		width: 80%;
-		margin: auto;
+		
 		padding: 40px 5px 0;
 	}
 	
@@ -136,6 +136,15 @@ p {
 	}
 }
 
+@media screen and (min-width: 600px) {
+	#mockup {
+		display: block;
+		width: 80%;
+		margin: auto;
+		padding: 40px 5px 0;
+	}
+
+}
 
 /*
 
