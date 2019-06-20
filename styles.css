@@ -40,14 +40,14 @@ p {
 	display: flex;
 	flex-shrink: 0;
 	justify-content: center;
-	padding: 0 0 10% 0;
+	padding: 0 0 8% 0;
 }
 
 i.fab {
 	font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 .images {
-	padding: 0 0 50px 0;
+	padding: 0 0 12% 0;
 }
 
 .circle {
