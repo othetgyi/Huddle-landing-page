@@ -51,8 +51,8 @@ i.fab {
 }
 
 .circle {
-	width: 25px;
-	height: 25px;
+	width: 5em;
+	height: 5em;
 	border-radius: 50%;
 	border: 1px solid white;
 	background-color: transparent;
