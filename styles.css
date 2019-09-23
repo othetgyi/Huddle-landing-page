@@ -26,6 +26,7 @@ h1 {
 p {
 	font-family: "Open Sans", sans-serif;
 	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	padding: 0 10em;
 }
 
 .container {
@@ -33,7 +34,7 @@ p {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	padding: 0 10% 12% 10%;
+	padding: 0.5em 1.5em 2.5em 1.5em;
 }
 
 .footer {
@@ -87,22 +88,21 @@ i.fab {
 	line-height: 1.5;
 }
 
-p {
-	padding: 0 10px;
-}
+
 
 .button {
-	width: 65%;
-	max-width: 200px;
-	height: 40px;
+	
+	width: 100%;
+	max-width: 12em;
+	height: 35px;
 	border-radius: 25px;
-	padding: 10px 0;
+	padding: 2px 0;
 	color: hsl(257, 40%, 49%);
 	filter: drop-shadow(0 0 5px #352955);
 	background-color: white;
 	border-color: transparent;
 	font-size: 15px;
-	margin: 5px 0;
+	margin: 7px 0;
 }	
 
 @media screen and (min-width: 430px) {
