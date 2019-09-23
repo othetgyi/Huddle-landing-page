@@ -91,18 +91,17 @@ i.fab {
 
 
 .button {
-	
 	width: 100%;
 	max-width: 12em;
-	height: 35px;
-	border-radius: 25px;
-	padding: 2px 0;
+	border-radius: 5em;
+	text-align: center;
+	padding: 0.8em 7.5em;
 	color: hsl(257, 40%, 49%);
 	filter: drop-shadow(0 0 5px #352955);
 	background-color: white;
 	border-color: transparent;
-	font-size: 15px;
-	margin: 7px 0;
+	font-size: 0.75em;
+	margin: 1.25em 0;
 }	
 
 @media screen and (min-width: 430px) {
