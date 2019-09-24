@@ -1,3 +1,8 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 html, body {
 	height: 100%;
 	background-color: hsl(257, 40%, 49%);
@@ -25,7 +30,7 @@ h1 {
 p {
 	font-family: "Open sans", sans-serif;
 	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
-	padding: 0 1em;
+	padding: 1em;
 	font-weight: 300;
 	letter-spacing: 0.02em;
 }
@@ -39,14 +44,18 @@ p {
 }
 
 .content {
-	padding: 1.8em 0.5em 0 0.5em;	
+	padding: 0em 0.5em 0 0.5em;	
+	margin: 2.7em 0 0 0;
 	text-align: center;
 	line-height: 1.5;
 }
 
 .button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	width: 100%;
-	max-width: 12em;
+	max-width: 15.5em;
 	border-radius: 5em;
 	padding: 0.8em 7.5em;
 	color: hsl(257, 40%, 49%);
@@ -54,7 +63,7 @@ p {
 	background-color: white;
 	border-color: transparent;
 	font-size: 0.75em;
-	margin: 1.25em 0;
+	margin: 1em 0;
 }	
 
 .footer {
