@@ -8,6 +8,7 @@ html, body {
 	background-size: contain;
 	color: white;
 	margin: 0;
+
 }
 
 body {
@@ -22,9 +23,11 @@ h1 {
 }
 
 p {
-	font-family: "Open Sans", sans-serif;
+	font-family: "Open sans", sans-serif;
 	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
 	padding: 0 1em;
+	font-weight: 300;
+	letter-spacing: 0.02em;
 }
 
 .container {
