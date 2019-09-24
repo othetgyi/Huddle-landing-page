@@ -64,10 +64,9 @@ i.fab {
 
 #logo {
 	justify-content: flex-start;
-	padding: 25px 0px 0 15px;
+	padding: 1.5em 0 0 0.5em;
 	max-width: 40%;
 }
-
 
 
 #mockup {
@@ -94,7 +93,6 @@ i.fab {
 	width: 100%;
 	max-width: 12em;
 	border-radius: 5em;
-	text-align: center;
 	padding: 0.8em 7.5em;
 	color: hsl(257, 40%, 49%);
 	filter: drop-shadow(0.3em 0.3em 0.1em #574094);
