@@ -17,8 +17,8 @@ html, body {
 }
 
 body {
-	display: flex;
-	flex-direction: column;		
+	/*display: flex;
+	flex-direction: column;		*/
 }
 
 h1 {
@@ -36,19 +36,18 @@ p {
 }
 
 .container {
-	flex: 1 0 auto;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	padding: 0.5em 1.5em 2.5em 1.5em;
-}
-
-.content {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: center;
-	padding: 0em 0.5em 0 0.5em;	
+	padding: 0 auto; /* 0.5em 1.5em 2.5em 1.5em*/ 
+}
+
+.content {
+	/*display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;*/
+	padding: 0 0.5em;	
 	margin: 2.7em 0 0 0;
 	text-align: center;
 	line-height: 1.5;
@@ -82,6 +81,7 @@ p {
 	flex-direction: column;
 	justify-content: center;
 }
+
 i.fab {
 	font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
@@ -100,14 +100,15 @@ i.fab {
 
 #logo {
 	justify-content: flex-start;
-	padding: 1.3em 0 0 0.5em;
+	padding: /*1.3em 0 0 0.5em;*/
 	max-width: 40%;
 }
 
 #mockup {
-	width: 92%;
-	margin: 0;
-	padding: 3.9em 0.75em 0;
+	width: 85%;
+	margin: 0 auto;
+	padding: 0;
+	/*padding: 3.9em 0.75em 0;*/
 }
 
 
