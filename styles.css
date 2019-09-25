@@ -44,16 +44,20 @@ p {
 }
 
 .content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
 	padding: 0em 0.5em 0 0.5em;	
 	margin: 2.7em 0 0 0;
 	text-align: center;
 	line-height: 1.5;
+	
 }
 
 .button {
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	/*align-items: center;
+	justify-content: center;*/
 	width: 15.5em;
 	border-radius: 5em;
 	padding: 0.8em 7.5em;
