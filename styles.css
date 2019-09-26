@@ -31,17 +31,17 @@ p {
 
 .button {
 	text-align: center;
-	width: 45vw;
+	width: 50vw;
 	max-width: 200px;
-	height: 5vh;
+	height: 5.5vh;
 	border-radius: 5em;
-	padding: /*0.8em 7.5em*/0;
+	padding: 0; 
 	color: hsl(257, 40%, 49%);
 	filter: drop-shadow(0.3em 0.3em 0.1em #574094);
 	background-color: white;
 	border-color: transparent;
 	font-size: 0.75em;
-	margin: /*1em 0*/ 0 auto;
+	margin: 1em auto;
 }	
 
 .circle {
@@ -62,7 +62,7 @@ p {
 }
 
 .content {
-	margin: 2.7em 0 0 0;
+	margin: 2.7em 2em 0;
 	text-align: center;
 	line-height: 1.5;
 	padding: 1.5vh 0 0 0;
@@ -93,14 +93,14 @@ i.fab {
 } 
 
 #logo {
-	width: 33%;
+	width: 35%;
 }
 
 #mockup {
 	width: 77%;
 	margin: 0 auto;
 	padding: 0; 
-	padding: 8vh 0 0 0;
+	padding: 9.4vh 0 0 0;
 } 
 
 
