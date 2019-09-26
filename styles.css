@@ -45,13 +45,13 @@ p {
 }	
 
 .circle {
-	width: 1.75em;
-	height: 1.75em;
+	width: 1.9em;
+	height: 1.9em;
 	border-radius: 50%;
 	border: 1px solid white;
 	background-color: transparent;
 	color: white;
-	margin: 1.5%;
+	margin: .35em;
 }
 
 .container {
@@ -76,7 +76,7 @@ p {
 }
 
 i.fab {
-	font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(10.25px + (22 - 10.25) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .images {
