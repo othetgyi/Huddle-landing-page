@@ -100,7 +100,7 @@ i.fab {
 
 #logo {
 	justify-content: flex-start;
-	padding: /*1.3em 0 0 0.5em;*/
+	padding: /*1.3em 0 0 0.5em;*/0;
 	max-width: 40%;
 }
 
