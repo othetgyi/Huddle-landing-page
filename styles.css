@@ -86,30 +86,22 @@ i.fab {
 
 }
 
- /*.logo {
+ .logo {
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: 0;
-} */
+	padding: 0 0 0 12vw;
+	
+	
+} 
 
-/*#logo {
-	justify-content: flex-start;
-	padding: 0;  1.3em 0 0 0.5em;
-	max-width: 40%;
-}*/
+#logo {
+	width: 35%;
+}
 
-/*.mockup {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0;
-
-} */
-/* 
 #mockup {
-	width: 85%;
+	width: 75%;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0; /*
 	padding: 3.9em 0.75em 0;
 } */
 
