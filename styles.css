@@ -29,20 +29,6 @@ p {
 	letter-spacing: 0.02em;
 }
 
-.container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 0 auto; 
-}
-
-.content {
-	padding: 0 0.5em;	
-	margin: 2.7em 0 0 0;
-	text-align: center;
-	line-height: 1.5;
-}
-
 .button {
 	text-align: center;
 	width: 45vw;
@@ -58,6 +44,29 @@ p {
 	margin: /*1em 0*/ 0 auto;
 }	
 
+.circle {
+	width: 1.75em;
+	height: 1.75em;
+	border-radius: 50%;
+	border: 1px solid white;
+	background-color: transparent;
+	color: white;
+	margin: 1.5%;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 auto; 
+}
+
+.content {
+	margin: 2.7em 0 0 0;
+	text-align: center;
+	line-height: 1.5;
+}
+
 .footer {
 	display: flex;
 	flex-shrink: 0;
@@ -69,15 +78,12 @@ i.fab {
 	font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.circle {
-	width: 1.75em;
-	height: 1.75em;
-	border-radius: 50%;
-	border: 1px solid white;
-	background-color: transparent;
-	color: white;
-	margin: 1.5%;
-	
+.images {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 auto; 
+
 }
 
  /*.logo {
@@ -92,13 +98,14 @@ i.fab {
 	max-width: 40%;
 }*/
 
-/* .mockup {
+/*.mockup {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 0;
 
-} 
+} */
+/* 
 #mockup {
 	width: 85%;
 	margin: 0 auto;
@@ -111,7 +118,7 @@ i.fab {
 
 
 
-
+/*
 @media screen and (min-width: 430px) {
 	.images {
 		padding: 0 0 5% 0;
@@ -141,7 +148,7 @@ i.fab {
 
 }
 
-/*
+
 
 
 @media screen and (min-width: 375px) {
