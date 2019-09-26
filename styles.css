@@ -13,12 +13,6 @@ html, body {
 	background-size: contain;
 	color: white;
 	margin: 0;
-
-}
-
-body {
-	/*display: flex;
-	flex-direction: column;		*/
 }
 
 h1 {
@@ -39,19 +33,14 @@ p {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	padding: 0 auto; /* 0.5em 1.5em 2.5em 1.5em*/ 
+	padding: 0 auto; 
 }
 
 .content {
-	/*display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;*/
 	padding: 0 0.5em;	
 	margin: 2.7em 0 0 0;
 	text-align: center;
 	line-height: 1.5;
-	
 }
 
 .button {
@@ -76,16 +65,9 @@ p {
 	padding: 0 0 8% 0;
 }
 
-.images {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-}
-
 i.fab {
 	font-size: calc(10px + (22 - 10) * ((100vw - 300px) / (1600 - 300)));
 }
-
 
 .circle {
 	width: 1.75em;
@@ -98,18 +80,31 @@ i.fab {
 	
 }
 
-#logo {
+ /*.logo {
+	flex-direction: column;
 	justify-content: flex-start;
-	padding: /*1.3em 0 0 0.5em;*/0;
-	max-width: 40%;
-}
+	padding: 0;
+} */
 
+/*#logo {
+	justify-content: flex-start;
+	padding: 0;  1.3em 0 0 0.5em;
+	max-width: 40%;
+}*/
+
+/* .mockup {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0;
+
+} 
 #mockup {
 	width: 85%;
 	margin: 0 auto;
 	padding: 0;
-	/*padding: 3.9em 0.75em 0;*/
-}
+	padding: 3.9em 0.75em 0;
+} */
 
 
 
