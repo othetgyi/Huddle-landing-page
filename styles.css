@@ -103,100 +103,16 @@ i.fab {
 	padding: 9.4vh 0 0 0;
 } 
 
-
-
-
-
-
-/*
-@media screen and (min-width: 430px) {
-	.images {
-		padding: 0 0 5% 0;
+@media screen and (min-width: 768px){
+	.container {
+		padding: 4vh 0 0 0; 
 	}
-
 	#mockup {
-		width: 80%;
-		padding: 40px 5px 0;
-	}
-	
-	#logo {
-		padding: 25px 0px 0 40px;
-		max-width: 35%;
-	}
-
+		width: 75%; 
+		padding: 7vh 0 0 0;
+	} 
 	.content {
-		padding: 0 20px 5px;	
-		
+		margin: 2.7em 10vw 0;
+		/*padding: 1.5vh 0 0 0;*/
 	}
 }
-
-@media screen and (min-width: 550px) {
-	#mockup {
-		width: 70%;
-		padding: 40px 5px 0;
-	}
-
-}
-
-
-
-
-@media screen and (min-width: 375px) {
-	html {
-		background: hsl(257, 40%, 49%) url("images/bg-desktop.svg") left fixed no-repeat;
-	}
-	
-	.heading {
-		font-weight: 600;
-		font-size: 2.2em;
-	}
-	.images {
-		width: 55%; 
-		padding: 50px 20px 0 60px;
-		float: left;
-	}
-	
-	.content {
-		width: 45%; 
-		float: right;
-		line-height: 1.5;
-		padding: 180px 100px 0 20px;
-	}
-	
-	.info {
-		width: 87%; 
-		float: left;
-		line-height: 1.5;
-		padding: 0 25px 0 0;
-	}
-	
-	.social {
-		float: right;
-		padding: 200px 80px 0 0;
-	}
-	
-	.button {
-		width: 175px;
-		height: 50px;
-		border-radius: 25px;
-		padding: 10px;
-		color: hsl(257, 40%, 49%);
-		filter: drop-shadow(0 0 5px #352955);
-		background-color: white;
-		border-color: transparent;
-		font-size: 15px;
-		margin: 5px 0;
-	}	
-	
-	#mockup {
-		width: 95%;
-		padding-top: 15px;
-	}
-	
-	#logo {
-		width: 25%;
-		padding: 0 10px 50px;
-	}
-}
-
-*/
