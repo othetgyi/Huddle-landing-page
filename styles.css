@@ -3,16 +3,20 @@
 	margin: 0;
 }
 
-html, body {
-	height: 100%;
+html  {
 	background-color: hsl(257, 40%, 49%);
 	background-image: url("images/bg-mobile.svg");
 	background-repeat: no-repeat;
 	background-position: top;
 	background-attachment: fixed; 
 	background-size: contain;
+}
+
+body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
 	color: white;
-	margin: 0;
 }
 
 h1 {
@@ -40,7 +44,7 @@ p {
 	filter: drop-shadow(0.3em 0.3em 0.1em #574094);
 	background-color: white;
 	border-color: transparent;
-	font-size: 0.75em;
+	font-size: calc(11px + (23 - 11) * ((100vw - 300px) / (1600 - 300)));
 	margin: 1em auto;
 }	
 
@@ -89,7 +93,7 @@ i.fab {
  .logo {
 	flex-direction: column;
 	justify-content: flex-start;
-	padding: 0 0 0 12vw;	
+	padding: 0 0 0 11vw;	
 } 
 
 #logo {
@@ -103,16 +107,65 @@ i.fab {
 	padding: 9.4vh 0 0 0;
 } 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 500px){
 	.container {
-		padding: 4vh 0 0 0; 
+		padding: 3vh 0 0 0; 
 	}
 	#mockup {
 		width: 75%; 
-		padding: 7vh 0 0 0;
+		padding: 6vh 0 0 0;
 	} 
 	.content {
-		margin: 2.7em 10vw 0;
-		/*padding: 1.5vh 0 0 0;*/
+		margin: 1.5em 10vw 0;
+	}
+	.footer {
+		margin: 3em 0 1em 0;
+	}
+}
+
+@media screen and (min-width: 600px){
+	.container {
+		padding: 2vh 0 0 0; 
+	}
+
+	.content {
+		margin: 1.5em 12vw 0;
+	}
+
+	#mockup {
+		width: 70%; 
+		padding: 5vh 0 0 0;
+	} 
+	
+	.logo {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 0 0 0 14vw;	
+	} 
+
+	#logo {
+		width: 32%;
+	}
+}
+
+@media screen and (min-width: 680px){
+
+	.content {
+		margin: 1em 12vw 0;
+	}
+
+	#mockup {
+		width: 68%; 
+		padding: 4vh 0 0 0;
+	} 
+	
+	.logo {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 0 0 0 15vw;	
+	} 
+
+	#logo {
+		width: 30%;
 	}
 }
