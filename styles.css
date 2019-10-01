@@ -22,13 +22,13 @@ body {
 h1 {
 	font-family: "Poppins", sans-serif;
 
-	font-size: calc(22px + (34 - 22) * ((100vw - 300px) / (1600 - 300))); 
+	font-size: calc(22px + (30 - 22) * ((100vw - 300px) / (1600 - 300))); 
 	font-weight: 500;
 }
 
 p {
 	font-family: "Open sans", sans-serif;
-	font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(14px + (20 - 14) * ((100vw - 300px) / (1600 - 300)));
 	padding: 1em;
 	font-weight: 300;
 	letter-spacing: 0.02em;
@@ -45,7 +45,7 @@ p {
 	filter: drop-shadow(0.3em 0.3em 0.1em #574094);
 	background-color: white;
 	border-color: transparent;
-	font-size: calc(11px + (23 - 11) * ((100vw - 300px) / (1600 - 300)));
+	font-size: calc(11px + (19 - 11) * ((100vw - 300px) / (1600 - 300)));
 	margin: 1em auto;
 }	
 
@@ -191,12 +191,28 @@ i.fab {
 	#logo {
 		width: 25%;
 	}
-/*
-	h1 {
-		font-size: 12rem;
+
+@media screen and (min-width: 880px){
+
+	.content {
+		margin: 1em 22vw 0;
 	}
 
-	p {
-		font-size: 5rem;
+	#mockup {
+		width: 50%; 
+		padding: 3vh 0 0 0;
+	} 
+	
+	.logo {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 0 0 0 25vw;	
+	} 
+
+	#logo {
+		width: 20%;
 	}
-} */
+
+	.button {
+		margin: .75em;
+	}
