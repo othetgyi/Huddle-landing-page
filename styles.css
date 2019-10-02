@@ -223,7 +223,9 @@ i.fab {
 	}
 	
 	body {
-		flex-direction: row;
+		flex-direction: column;
+		height: 100%;
+		justify-content: center;
 	}
 
 	.button {
@@ -240,30 +242,32 @@ i.fab {
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 100%;
+		height: 90%;
 		padding: 0;
-	
 	}
 
 	.content {
 		display: flex;
 		flex-direction: column;
-		flex-basis: 100%;
 		flex: 1;
 		align-items: left;
 		justify-content: center;
 		margin: 0;
 		text-align: left;
 		line-height: 1.5;
-		padding: 0;
+		padding: 0 0 0 5em;
 		width: 40%;
-		/*flex-grow: 1;*/
+		/* flex: 1;
+		
+		flex-grow: 1;*/
 	}
 	
 	.images {
 		display: flex;
 		flex-direction: column;
-		flex-basis: 100%;
+		
 		flex: 1;
+		margin: 0 0 0 5em;
 	}
 
 	.logo {
@@ -281,9 +285,14 @@ i.fab {
 		padding: 0 0 0 0;
 	} 
 	.footer {
+		display: flex;
 		justify-content: flex-end;
-		margin:  auto auto 0 auto;
+		/*margin:  auto 0 0 auto;
+		height: 10%;
+		*/
 		flex-shrink: 0;
+		
 	}
+	
 }
 
