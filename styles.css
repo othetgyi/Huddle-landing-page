@@ -14,8 +14,8 @@ html  {
 
 body {
 	display: flex;
-	min-height: 100vh;
 	flex-direction: column;
+	min-height: 100vh;
 	color: white;
 }
 
@@ -238,7 +238,8 @@ i.fab {
 	.container {
 		display: flex;
 		flex-direction: row;
-		
+		flex-wrap: wrap;
+		width: 100%;
 		padding: 0;
 	
 	}
@@ -246,23 +247,26 @@ i.fab {
 	.content {
 		display: flex;
 		flex-direction: column;
+		flex-basis: 100%;
+		flex: 1;
+		align-items: left;
+		justify-content: center;
 		margin: 0;
 		text-align: left;
 		line-height: 1.5;
 		padding: 0;
 		width: 40%;
-		align-items: left;
-		flex-grow: 1;
+		/*flex-grow: 1;*/
 	}
 	
 	.images {
-		width: 60%;
-		margin:  0 0 0 3em;
+		display: flex;
+		flex-direction: column;
+		flex-basis: 100%;
+		flex: 1;
 	}
 
 	.logo {
-		/*flex-direction: column;
-		justify-content: flex-start;*/
 		padding: 0 0 0 0;	
 	} 
 	
@@ -277,9 +281,8 @@ i.fab {
 		padding: 0 0 0 0;
 	} 
 	.footer {
-
 		justify-content: flex-end;
-		margin: 0;
+		margin:  auto auto 0 auto;
 		flex-shrink: 0;
 	}
 }
