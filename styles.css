@@ -101,6 +101,8 @@ i.fab {
 	width: 35%;
 }
 
+
+
 #mockup {
 	width: 77%;
 	margin: 0 auto;
@@ -255,15 +257,14 @@ i.fab {
 		text-align: left;
 		line-height: 1.5;
 		padding: 0 0 0 0;
-		/*width: 30%;
-		flex: 1;
-		
-		flex-grow: 1;*/
+
 	}
 	
 	.images {
 		display: flex;
 		flex-direction: column;
+		align-items: left;
+		justify-content: start;
 		flex-basis: 100%;
 		flex: 1.5;
 		margin: 0 0 0 3em;
@@ -271,20 +272,19 @@ i.fab {
 	}
 
 	.logo {
-		/*padding: 0 0 0 0;	*/
-		justify-content: start;
+		padding: 0;	
+		margin: 2.5em 0 4em 0;	
 	} 
 	
 	#logo {
-		width: 30%;
-		
+		width: 30%;	
 	}
 
+	
 	#mockup {
 		width: 95%;
 		margin: 0;
 		padding: 0; 
-
 	} 
 	.footer {
 		display: flex;
