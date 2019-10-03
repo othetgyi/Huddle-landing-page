@@ -265,24 +265,26 @@ i.fab {
 		display: flex;
 		flex-direction: column;
 		flex-basis: 100%;
-		flex: 2;
-		/*margin: 0 0 0 0;*/
+		flex: 1.5;
+		margin: 0 0 0 3em;
 
 	}
 
 	.logo {
-		padding: 0 0 0 0;	
+		/*padding: 0 0 0 0;	*/
+		justify-content: start;
 	} 
 	
-	/*#logo {
+	#logo {
 		width: 30%;
+		
 	}
-*/
+
 	#mockup {
-		width: 100%;
-		/*margin: 0 auto;*/
+		width: 95%;
+		margin: 0;
 		padding: 0; 
-		padding: 0 0 0 0;
+
 	} 
 	.footer {
 		display: flex;
